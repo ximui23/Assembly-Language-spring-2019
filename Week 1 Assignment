@@ -1,12 +1,17 @@
 - [ ] 1.1.3 Section Review, Questions 1,3, 8, 12
       Question 1: How do assemblers and linkers work together?
-      - 
+      - Assemblers change the source code from assembly to machine language and then the linkers combine the files are created
+      by the assembler into one executed program. 
+      
       Question 3: What is meant by a one-to-many relationship when comparing a high-level language to
       machine language?
-      -  one-to-many relationship means one coding 
+      -  one-to-many relationship means one coding instruction in high-level language corresponds to many 
+      coding instructions in machine language.
+      
       Question 8: Do you suppose type checking on pointer variables is stronger (stricter) in assembly lan-
       guage, or in C and C++?
-      -
+      - stronger in C and C++ because assembly language mostly do not have type checking on pointer
+      
       Question 12: Challenge: Translate the following C++ expression to assembly language, using the example
       presented earlier in this chapter as a guide: X = (Y * 4) + 3.
           mov eax, Y
@@ -16,9 +21,25 @@
           mov X, eax
           
 - [ ] 1.2.1 Section Review, Questions 2, 3, 10
+      Question 2: Why do you suppose translated programs often execute more quickly than interpreted ones?
+      - Because the instructions in the interpreted program need to be decoded before execute whereas the instructions
+      in translated one are already converted to the original machine language so they can be excuted directly on the
+      hardware.
+      
+      Question 3: (True/False): When an interpreted program written in language L1 runs, each of its instruc-
+      tions is decoded and executed by a program written in language L0.
+      -  True
+      
+      Question 10: Statements at the assembly language level of a virtual machine are translated into state-
+      ments at which other level?
+      - Statements at the assembly language level are translated into statements at the machine language.
+      
+- [ ] 1.3.9 Section Review, Questions 2, 3, 5, 6, 7 
       Question 2:
       Question 3:
-      Question 10: 
-- [ ] 1.3.9 Section Review, Questions 2, 3, 5, 6, 7 
+      Question 5:
+      Question 6:
+      Question 7:
+      
 - [ ] 1.7.1 Short Answer, Questions 1-22 and 25
 - [ ] 1.7.2 Algorithm Workbench, Choose any 1 question 	
